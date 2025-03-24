@@ -1,0 +1,5 @@
+---
+publish:
+---
+- [ ] Effective practicing
+- [ ] Mindset

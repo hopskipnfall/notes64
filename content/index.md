@@ -1,5 +1,6 @@
 ---
 title: Hi
+publish: true
 ---
 Hi I'm [nue](https://x.com/6kRt62r2zvKp5Rh). These are my notes on Smash 64. I am not a top player but maybe this public will be useful for newer players.
 

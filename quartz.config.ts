@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "notes.12cb.dev",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "Private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -73,7 +73,10 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [
+      Plugin.ExplicitPublish(),
+      Plugin.RemoveDrafts()
+    ],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
