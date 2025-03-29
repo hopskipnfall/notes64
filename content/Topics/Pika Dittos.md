@@ -1,7 +1,6 @@
 ---
 publish: true
 ---
-
 See also: [[Pikachu]]
 
 ### How to get in
