@@ -19,8 +19,4 @@ See [[Pika Dittos]]
 - Good nesses recovering low aim use pk thunder backwards (clockwise if on the left) and try to hit you with the tail of pk thunder, comboing into pk thunder 2.
 
 ## vs [[Yoshi]]
-Landing retreating fair is good.
-
-### Combating 
-
-
+- Landing retreating fair is good.
