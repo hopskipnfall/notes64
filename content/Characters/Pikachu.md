@@ -12,7 +12,6 @@ See [[Pika Dittos]]
 - Don't be under side plat when ness is above you
 
 ### How to get in
-
 - Landing fair to grab is really good against ness
 
 ### Edgeguarding
