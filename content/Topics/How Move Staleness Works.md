@@ -12,7 +12,7 @@ In an attempt to encourage players to use a variety of attacks, moves get *weake
 
 The game has a copy of this table for each player, and it describes how the attack's damage and knockback will change the next time it is used.
 
-When an attack *does damage*, it goes into the top right box of that table, pushing any other moves down. If the attack is already in the table, it gets moved back up to the top. If an attack is in the "stale 4" slot and gets shifted down, it is removed from the staleness table and is no longer stale.
+When an attack *does damage*, it goes into the top right box of that table, pushing any other moves down. If the attack is already in the table, it gets moved back up to the top. If an attack is in the "stale 4" slot and gets shifted down, it is removed from the table and is no longer stale.
 
 Note that because damage is dealt in integers with damage scaling for stale moves rounding up, this means that any move doing less than 25% damage when fresh will do the same damage at stale 4:
 
@@ -24,17 +24,25 @@ Since this describes almost all moves in the game, you can just remember this as
 
 > After you hit someone with an attack, that attack is now maximum stale. Attack with *three different moves* to un-stale the first attack.
 # Practical example
-```kotlin
-// TODO
-```
+You're Pikachu and you hit Yoshi off the stage with the combo:
+
+1. Back air
+2. Down air
+3. Back air
+4. Forward throw
+
+If Yoshi is at 85% will back air break super armor? Use [[Yoshi Armor Break Percentages]]
+
+> [!faq]- Expand for solution
+> By the end of the combo, back air will be in the "stale 2" slot in the staleness table above. According to [[Yoshi Armor Break Percentages]], Pikachu's stale 2 back air will break super armor if Yoshi is at least 89%. Because in our example Yoshi is only at 85% it will not break super armor.
 # Projectiles
 Link's boomerang gets stale, but not his bomb. How does projectile staling work?
 
 This is complicated and a little contrived. To answer this we have to break projectiles into two categories: *weapons* and *items*.
 
-*Weapons*: Fox's laser, the RayGun item's laser, fireballs, thunder jolt, fire flower, PK fire, Link's boomerang. These attacks that come from a player or are granted by an item *do stale*.
+**Weapons**: Fox's laser, the RayGun item's laser, fireballs, thunder jolt, fire flower, PK fire, Link's boomerang. These attacks that come from a player or are granted by an item *do stale*.
 
-*Items*: RayGun, Fan, Link's Bomb, shells. Damage done by an item not currently being held (including collision) *does not stale*.
+**Items**: RayGun, Fan, Link's Bomb, shells. Damage done by an item not currently being held (including collision) *does not stale*.
 # Random facts
 1. Throws do stale, but knockback is not affected.
 2. Forward and back throws count as different moves.
