@@ -15,3 +15,5 @@ See [[Pika Dittos]]
 ### Edgeguarding
 ## vs [[Yoshi]]
 - Landing retreating fair is good.
+
+Play on your back foot. Never attack.
