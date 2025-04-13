@@ -9,6 +9,7 @@ In an attempt to encourage users to use a variety of attacks, moves get *weakene
 | Stale 2: Scale damage by 0.82 and round up               | (second most recent attack)    |
 | Stale 3: Scale damage by 0.89 and round up               | (third most recent attack)     |
 | Stale 4: Scale damage by 0.96 and round up               | (fourth most recent attack)    |
+
 Whenever an attack *does damage*, it goes into the top right box of that table, pushing any other moves down. If the attack is already in the table, it gets moved back up to the top.
 
 Note that because damage is dealt in integers with damage scaling for stale moves rounding up, this means that any move doing 24% or less when fresh will do the same damage at stale 4.
