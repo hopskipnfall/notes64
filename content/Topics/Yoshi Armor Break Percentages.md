@@ -1,11 +1,11 @@
 ---
 publish: true
 ---
-[[How Move Staleness Works]]
+Here are all moves that will break Yoshi's super armor under 100% when fresh. 
+See also: [[How Move Staleness Works]]
 # U Version
-Here are all moves that will break Yoshi's super armor under 100% when fresh. Check [this spreadsheet](https://smash64.net/ssbframedata/Armor/Armor.html) for more comprehensive data
+Check [this spreadsheet](https://smash64.net/ssbframedata/Armor/Armor.html) for more comprehensive data
 ## [[Luigi]]
-
 | Move                     | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ------------------------ | ----- | ------- | ------- | ------- |
 | Up B (Grounded)          | 1     | 5       | 9       | 14      |
@@ -39,7 +39,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | Forward Tilt (High)       | 94    | 102     | 111     | 122     |
 | UAir                      | 97    | 106     | 117     | 129     |
 # [[Donkey Kong]]
-
 | Move                      | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ------------------------- | ----- | ------- | ------- | ------- |
 | Neutral B (Fully charged) | 14    | 21      | 29      | 38      |
@@ -68,7 +67,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | Forward Tilt | 82    | 89      | 104     | 112     |
 | UAir         | 84    | 91      | 99      | 117     |
 # [[Samus]]
-
 | Move                   | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ---------------------- | ----- | ------- | ------- | ------- |
 | Neutral B (Max charge) | 41    | 49      | 57      | 66      |
@@ -83,7 +81,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | BAir                   | 91    | 101     | 101     | 113     |
 | Down Smash             | 95    | 103     | 113     | 123     |
 # [[Captain Falcon]]
-
 | Move                                 | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ------------------------------------ | ----- | ------- | ------- | ------- |
 | Neutral B (Air High)                 | 10    | 15      | 20      | 26      |
@@ -104,7 +101,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | Forward Tilt (Mid-High)              | 98    | 106     | 116     | 127     |
 | Down B (Air)                         | 98    | 106     | 115     | 125     |
 # Ness
-
 | Move        | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ----------- | ----- | ------- | ------- | ------- |
 | Up B (PKT2) | 19    | 27      | 33      | 40      |
@@ -117,7 +113,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | NAir        | 89    | 97      | 106     | 116     |
 | Up Smash    | 96    | 104     | 112     | 122     |
 # [[Yoshi]]
-
 | Move                     | Fresh  | Stale 1 | Stale 2 | Stale 3 | Stale 4 |
 | ------------------------ | ------ | ------- | ------- | ------- | ------- |
 | Down B (Grounded or Air) | 38     | 38      | 42      | 51      | 56      |
@@ -130,7 +125,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | BAir                     | 80     | 80      | 87      | 94      | 111     |
 | NAir                     | 89     | 89      | 97      | 106     | 116     |
 # [[Kirby]]
-
 | Move       | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ---------- | ----- | ------- | ------- | ------- |
 | Down B     | 38    | 45      | 50      | 60      |
@@ -142,7 +136,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | Down Smash | 81    | 88      | 102     | 110     |
 | FSmash     | 86    | 94      | 104     | 115     |
 # [[Fox]]
-
 | Move       | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ---------- | ----- | ------- | ------- | ------- |
 | Up Smash   | 39    | 43      | 48      | 59      |
@@ -154,7 +147,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | Down Smash | 95    | 103     | 113     | 123     |
 | Up Tilt    | 97    | 97      | 108     | 122     |
 # [[Pikachu]]
-
 | Move                     | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ------------------------ | ----- | ------- | ------- | ------- |
 | Down B (Air or Grounded) | 26    | 29      | 33      | 42      |
@@ -166,7 +158,6 @@ Here are all moves that will break Yoshi's super armor under 100% when fresh. Ch
 | NAir                     | 89    | 97      | 106     | 116     |
 | DAir                     | 92    | 100     | 110     | 121     |
 # [[Jigglypuff]]
-
 | Move       | Fresh | Stale 2 | Stale 3 | Stale 4 |
 | ---------- | ----- | ------- | ------- | ------- |
 | Down B     | 14    | 20      | 23      | 29      |
