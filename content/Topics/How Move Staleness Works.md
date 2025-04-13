@@ -12,7 +12,7 @@ In an attempt to encourage players to use a variety of attacks, moves get *weake
 
 The game has a copy of this table for each player, and it describes how the attack's damage and knockback will change the next time it is used.
 
-When an attack *does damage*, it goes into the top right box of that table, pushing any other moves down. If the attack is already in the table, it gets moved back up to the top. If an attack is in the "stale 4" slot and gets shifted down, it is removed from the table and is no longer stale.
+When an attack *does damage*[^2], it goes into the top right box of that table, pushing any other moves down. If the attack is already in the table, it gets moved back up to the top. If an attack is in the "stale 4" slot and gets shifted down, it is removed from the table and is no longer stale.
 
 Note that because damage is dealt in integers with damage scaling for stale moves rounding up, this means that any move doing less than 25% damage when fresh will do the same damage at stale 4:
 
@@ -46,7 +46,10 @@ This is complicated and a little contrived. To answer this we have to break proj
 # Random facts
 1. Throws do stale, but knockback is not affected.
 2. Forward and back throws count as different moves.
+3. Dying *does not* reset the player's stale moves.
+4. Angled moves (e.g. Falcon's high angled forward smash) do not count as different moves for staleness purposes.
 # Acknowledgements
 Thanks to VtR in the Smash 64 discord for answering my many questions about item/projectile staleness.
 
 [^1]: These scaling constants came from the Smash Wiki article [Stale-move negation](https://www.ssbwiki.com/Stale-move_negation#Calculation_in_Smash_64)
+[^2]: Update: Technically this is wrong but it's close enough. Jigglypuff's up b doesn't do damage but it still counts for staleness purposes.
