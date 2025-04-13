@@ -40,11 +40,13 @@ Link's boomerang gets stale, but not his bomb. How does projectile staling work?
 
 This is complicated and a little contrived. To answer this we have to break projectiles into two categories: *weapons* and *items*.
 
-**Weapons**: Fox's laser, the RayGun item's laser, fireballs, thunder jolt, fire flower, PK fire, Link's boomerang. These attacks that come from a player or are granted by an item *do stale*.
+**Weapons**: Fox's laser, the RayGun item's laser, fireballs, thunder jolt, fire flower, the PK fire projectile, Link's boomerang. These attacks that come from a player or are granted by an item *do stale*.
 
-**Items**: RayGun, Fan, Link's Bomb, shells. Damage done by an item not currently being held (including collision) *does not stale*.
+**Items**: RayGun, Fan, Link's Bomb, shells, the pillar of fire that appears when PK fire connects. Damage done by an item not currently being held (including collision) *does not stale*.
 # Random facts
 1. Throws do stale, but knockback is not affected.
 2. Forward and back throws count as different moves.
+# Acknowledgements
+Thanks to VtR in the Smash 64 discord for answering my many questions about item/projectile staleness.
 
 [^1]: These scaling constants came from the Smash Wiki article [Stale-move negation](https://www.ssbwiki.com/Stale-move_negation#Calculation_in_Smash_64)
