@@ -2,6 +2,9 @@
 publish: true
 ---
 Source: [Fray](https://discord.com/channels/135236186582155264/135442880167804929/406244851336609802)
+
+> [!NOTE]
+> This data is specifically for U version. I don't know if these numbers apply to J as well.
 # [[Luigi]] / [[Mario]] / [[Ness]]
 
 |             | Below 100 | Over 100  |
