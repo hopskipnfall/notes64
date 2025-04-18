@@ -48,6 +48,7 @@ This is complicated and a little contrived. To answer this we have to break proj
 2. Forward and back throws count as different moves.
 3. Dying *does not* reset the player's stale moves.
 4. Angled moves (e.g. Falcon's high angled forward smash) do not count as different moves for staleness purposes.
+5. The Hammer item's attack does not stale.
 # Acknowledgements
 Thanks to VtR in the Smash 64 discord for answering my many questions about item/projectile staleness.
 

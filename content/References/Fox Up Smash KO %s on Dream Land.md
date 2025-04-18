@@ -1,3 +1,6 @@
+---
+publish: true
+---
 # U Version
 Source: [Honey (via Crovy)](https://discord.com/channels/135236186582155264/135442880167804929/1283589544389771266)
 
