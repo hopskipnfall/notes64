@@ -17,3 +17,8 @@ See [[Pika Dittos]]
 - Landing retreating fair is good.
 
 Play on your back foot. Never attack.
+
+# TODO
+Guard confirms on shield when opponent lands on plat
+
+perfect lands to top plat
